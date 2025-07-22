@@ -1,0 +1,33 @@
+/* *{
+  padding: 0;
+  margin: 0;
+}
+#header{
+  display: flex;
+  color: black;
+  height: 110px;
+  padding: 0;
+  margin: 0;
+}
+/* id -># class->dot(.) */
+/* .img-logo{
+  height: 110px;
+}
+.name-logo{
+  padding: 40px;
+}
+.main-header{
+  background-color: lightpink;
+  display: flex;
+  justify-content: space-between;
+}
+.listoflist{
+  display: flex;
+}
+.l1{
+  margin: 8px;
+  padding: 17px;
+  cursor: pointer;
+} */ 
+
+@import "tailwindcss";
