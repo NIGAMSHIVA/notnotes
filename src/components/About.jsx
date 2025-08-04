@@ -1,7 +1,31 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
+import {useEffect} from 'react';
 
 const About=()=>{
+
+    useEffect(async()=>{
+
+        const gitdata=await fetch("https://api.github.com/users/NIGAMSHIVA");
+
+    const datagit=await gitdata.json();
+
+    console.log(datagit);
+
+
+    },[]);
+
+
+
+
+    
+
+
+    
+
+
+
+
     return(
         <div>
             <h1>My Name is Shiva Nigam</h1>
